@@ -1,6 +1,7 @@
 package com.java.bases;
 
 public class E07_Asterisks {
+
 	private static final int CENTER_X = 7;
 	private static final int CENTER_Y = 6;
 	private static final int RADIUS = 8;
@@ -14,6 +15,7 @@ public class E07_Asterisks {
 					System.out.print("-");
 				}
 			}
+
 			System.out.println();
 		}
 	}
