@@ -24,6 +24,7 @@ public class E02_Loops {
 		for (int index = 0; index < array.length; index++) {
 			array[index] = random.nextInt(RANDOM_NUMBER_BOUND);
 		}
+
 		return array;
 	}
 
@@ -38,6 +39,7 @@ public class E02_Loops {
 		for (int number : array) {
 			sum = sum + number;
 		}
+
 		return sum;
 	}
 }

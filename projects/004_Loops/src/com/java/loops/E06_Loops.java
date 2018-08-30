@@ -37,7 +37,7 @@ public class E06_Loops {
 	}
 
 	private static void leastToLargest(int[] array) {
-		for(int index1 = array.length -1; index1 > 0 ;index1--) {
+		for (int index1 = array.length - 1; index1 > 0; index1--) {
 			for (int index = 0; index < index1; index++) {
 				if (array[index] > array[index + 1]) {
 					int swapBox = array[index];
