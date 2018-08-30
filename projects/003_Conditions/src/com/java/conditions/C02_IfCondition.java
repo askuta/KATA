@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class C02_IfCondition {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
@@ -28,5 +29,4 @@ public class C02_IfCondition {
 			}
 		}
 	}
-
 }

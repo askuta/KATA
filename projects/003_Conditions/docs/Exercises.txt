@@ -1,5 +1,5 @@
 =========
-Exercises
+Gyakorlás
 =========
 
 1.) Használd a meglévő "003_Conditions" projektet.

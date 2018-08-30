@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class E05_Conditions {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Mondj egy számot 1-99-ig!");
@@ -23,14 +24,14 @@ public class E05_Conditions {
 		if (tens == 0) {
 			System.out.println(calculateOnes(ones));
 		} else {
-			System.out.println(calculateTens(tens,ones) + calculateOnes(ones).toLowerCase());
+			System.out.println(calculateTens(tens, ones) + calculateOnes(ones).toLowerCase());
 		}
 	}
 
 	private static String calculateOnes(int ones) {
 		switch (ones) {
 		case 1: {
-			return "Egy"; 
+			return "Egy";
 		}
 		case 2: {
 			return "Kettő";
@@ -59,20 +60,20 @@ public class E05_Conditions {
 		default: {
 			return "";
 		}
-		}	
+		}
 	}
 
 	private static String calculateTens(int tens, int ones) {
 		switch (tens) {
 		case 1: {
-			if(ones > 0) {
-				return "Tizen"; 
+			if (ones > 0) {
+				return "Tizen";
 			} else {
 				return "Tíz";
 			}
 		}
 		case 2: {
-			if(ones > 0) {
+			if (ones > 0) {
 				return "Huszon";
 			} else {
 				return "Húsz";

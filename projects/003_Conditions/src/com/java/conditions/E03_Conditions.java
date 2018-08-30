@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class E03_Conditions {
+
 	public static void main(String[] args) throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		System.out.println("Mondj egy számot 1-10-ig!");
@@ -14,23 +15,23 @@ public class E03_Conditions {
 
 		switch (yourNumber) {
 		case 1: {
-			System.out.println("egy"); 
+			System.out.println("egy");
 			break;
 		}
 		case 2: {
-			System.out.println("ketto");
+			System.out.println("kettő");
 			break;
 		}
 		case 3: {
-			System.out.println("harom");
+			System.out.println("három");
 			break;
 		}
 		case 4: {
-			System.out.println("negy");
+			System.out.println("négy");
 			break;
 		}
 		case 5: {
-			System.out.println("ot");
+			System.out.println("öt");
 			break;
 		}
 		case 6: {
@@ -38,7 +39,7 @@ public class E03_Conditions {
 			break;
 		}
 		case 7: {
-			System.out.println("het");
+			System.out.println("hét");
 			break;
 		}
 		case 8: {
@@ -50,7 +51,7 @@ public class E03_Conditions {
 			break;
 		}
 		case 10: {
-			System.out.println("tiz");
+			System.out.println("tíz");
 			break;
 		}
 		}
