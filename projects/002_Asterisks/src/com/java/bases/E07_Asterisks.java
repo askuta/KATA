@@ -1,9 +1,9 @@
 package com.java.bases;
 
 public class E07_Asterisks {
-	private static final int CENTER_X = 1;
-	private static final int CENTER_Y = 1;
-	private static final int RADIUS = 10;
+	private static final int CENTER_X = 7;
+	private static final int CENTER_Y = 6;
+	private static final int RADIUS = 8;
 
 	public static void main(String[] args) {
 		for (int x = 0; x < 21; x++) {
