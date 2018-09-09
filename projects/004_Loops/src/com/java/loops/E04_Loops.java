@@ -21,7 +21,7 @@ public class E04_Loops {
 		for (int index = 0; index < array.length; index++) {
 			array[index] = random.nextInt(RANDOM_NUMBER_BOUND);
 		}
-		
+
 		return array;
 	}
 
@@ -30,8 +30,8 @@ public class E04_Loops {
 		for (int index = 0; index < array.length; index++) {
 			System.out.println(array[index]);
 		}
-		System.out.println("Legelső szám ezek közül:" + array[0]);
-		System.out.println("Legutolsó szám ezek közül:" + array[ARRAY_SIZE - 1]);
+		System.out.println("Legelső szám ezek közül: " + array[0]);
+		System.out.println("Legutolsó szám ezek közül: " + array[ARRAY_SIZE - 1]);
 	}
 
 	private static void swapFirstLastNumbers(int[] array) {

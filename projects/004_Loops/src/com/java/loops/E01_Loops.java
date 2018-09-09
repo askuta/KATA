@@ -13,5 +13,4 @@ public class E01_Loops {
 			System.out.println(array[index]);
 		}
 	}
-
 }

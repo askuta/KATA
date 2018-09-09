@@ -1,5 +1,5 @@
 =========
-Exercises
+Gyakorlás
 =========
 
 1.) Készítsd el a "004_Loops" projektet.

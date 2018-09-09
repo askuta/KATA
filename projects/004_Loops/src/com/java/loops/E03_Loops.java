@@ -21,6 +21,7 @@ public class E03_Loops {
 		for (int index = 0; index < array.length; index++) {
 			array[index] = random.nextInt(RANDOM_NUMBER_BOUND);
 		}
+
 		return array;
 	}
 
@@ -38,7 +39,7 @@ public class E03_Loops {
 				largestNumber = array[index];
 			}
 		}
-		System.out.println("Legnagyobb szám ezek közül:" + largestNumber);
+		System.out.println("Legnagyobb szám ezek közül: " + largestNumber);
 	}
 
 	private static void leastNumber(int[] array) {
@@ -48,6 +49,6 @@ public class E03_Loops {
 				leastNumber = array[index];
 			}
 		}
-		System.out.println("Legkisebb szám ezek közül:" + leastNumber);
+		System.out.println("Legkisebb szám ezek közül: " + leastNumber);
 	}
 }
